@@ -1,0 +1,9 @@
+<!DOCTYPE HTML>    
+    <form action="/" method="post" id="addnoteform">
+        <h2>Add note to tape</h2>          
+        <label>Caption</label><br/>
+        <input type="text"  name="caption" value=""/><br/>
+        <label>Topic</label><br/>
+        <textarea  rows="15" cols="45" name="topic" form="addnoteform"></textarea><br/>
+        <input type="submit" name="addnote.submitted"value="Add note"/> 
+      </form>

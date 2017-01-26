@@ -28,11 +28,14 @@ Getting sources
 
 Clone repository to your direcory
 
-    $clone
-    
-Go to work directory and install positest packege
+.. code:: bash
 
-    $cd
+    $mkdir positest
+    $cd positest
+    $git clone https://github.com/biobobot/positest.git .
+    
+Install positest packege
+
     $sudo pip3 install -e .
     
 Start server
@@ -40,12 +43,9 @@ Start server
 
 Type following to your terminal
 
-.. code:: bash
-
     $pserve positest.ini --reload
     
 After server starts do not close terminal and go to http://localhost/8000 from your brouser
-
 
 Crawler
 =======
@@ -53,9 +53,7 @@ Crawler
 Package you have just get also contains web spider script in crawler.py file
 To start spider while web server runs open new terminal window and run crawler.py in format like this:
 
-.. code:: bash
-
-    $python3 crowler.py -H http://localhost:800 user:pass user2:pass2 ... userN:passN
+    $python3 crowler.py -H http://localhost:8000 user:pass user2:pass2 ... userN:passN
     
 if users exists in site data base you must see statistics for each one
 

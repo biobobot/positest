@@ -1,0 +1,4 @@
+<!DOCTYPE HTML>  
+        <h2>${message}</h2>
+        <p>${descr}<br/><a href="${ref}">${ref_desc}</a></p>
+

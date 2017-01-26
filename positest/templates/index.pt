@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Positest</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="${request.static_url('positest:static/style.css') }"/>
+</head>
+<body>
+  <!--<script>alert(document.cookie);</script>-->  
+  <div id="main">
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <h1><a href="/?user=">Positest<span class="logo_colour"> blabla board</span></a></h1>
+          <h2>Powered by plum. Just for fun </h2>
+        </div>
+      </div>
+${structure: navigation} 
+    </header>
+    <div id="site_content">
+${structure: messagebar}
+${structure: content}    
+    </div>
+    <footer>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<!DOCTYPE HTML>    
+     <form action="/" method="post">
+        <h2>Login</h2>        
+        <label for="login">Username</label><br/>
+        <input type="text"  name="login" value=""/><br/>           
+        <label for="password">Pasword</label><br/>     
+        <input type="password" name="password" value=""/><br/><br/>  
+        <input type="submit"   name="login.submitted"value="Login"/> 
+      </form>

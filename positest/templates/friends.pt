@@ -1,0 +1,5 @@
+<!DOCTYPE HTML>
+        <h5>List of friends:</h5><br/>
+        <div class="content">
+            <h5  tal:repeat="item items"><strong><a href="about?user=${item.friend}">${item.friend}</a></strong><br></h5>
+        </div>

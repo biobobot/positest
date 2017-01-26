@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>   
+    <div class="content">
+	    <table>
+						<tr><td>Visit</td><td>${previsit}</td></tr>
+            <tr><td>Home</td><td>${home}</td></tr>
+            <tr><td>AddNote</td><td>${addnote}</td></tr>
+            <tr><td>About</td><td>${about}</td></tr>
+            <tr><td>Edit</td><td>${edit}</td></tr>
+            <tr><td>Friends</td><td>${friends}</td></tr>
+            <tr><td>Statistics</td><td>${statistics}</td></tr>
+        </table>   
+    </div> 
+   

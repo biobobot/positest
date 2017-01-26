@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>    
+    <form action="/" method="post" id="editform">
+        <h2>Edit profile of ${login}</h2>            
+        <label>Old password</label><br/>     
+        <input type="password" name="password" value=""/><br/> 
+        <label>New password</label><br/>     
+        <input type="password" name="newpassord" value=""/><br/>  
+        <label>Confirm new password</label><br/>     
+        <input type="password" name="confirm" value=""/><br/> 
+        <label>Tell us litle bit about you</label><br/>
+        <textarea  rows="10" cols="45" name="about" form="editform">${about}</textarea><br/>
+        <input type="submit" name="edit.submitted"value="Save"/>
+        <input type="submit" name="edit.discard"  value="Discard"/>  
+      </form>

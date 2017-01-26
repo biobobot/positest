@@ -1,0 +1,6 @@
+<!DOCTYPE HTML>    
+    <nav>
+        <ul class="sf-menu" id="nav">
+          <li tal:repeat="item items" class="${item.sel}"><a href="${item.ref}">${item.cap}</a></li>
+        </ul>
+    </nav>

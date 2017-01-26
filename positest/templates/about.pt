@@ -1,0 +1,5 @@
+<!DOCTYPE HTML> 
+        <div class="content">
+	        <h3>About  ${login}</h3>
+            <p>${about}<br/></p>  
+        </div>

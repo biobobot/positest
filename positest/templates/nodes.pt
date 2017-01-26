@@ -1,0 +1,6 @@
+<!DOCTYPE HTML>
+        <div class="content" tal:repeat="item items">
+	        <h3>${item.caption}</h3>
+            <p>${item.topic}<br/></p>
+            <h5>shared by <strong><a href="about?user=${item.login}">${item.login}</a></strong></h5>
+        </div>

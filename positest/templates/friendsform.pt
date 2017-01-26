@@ -1,0 +1,7 @@
+<!DOCTYPE HTML>
+        <form action="/" method="post">
+            <h2>Search and add frend</h2>            
+            <label>Type frends login</label><br/>     
+            <input type="text" name="friend" value=""/> 
+            <input type="submit" name="friend.submitted" value="Add"/> 
+        </form><br/><br/>       
