@@ -43,7 +43,7 @@ Type following to your terminal
 
     $pserve positest.ini --reload
     
-After server starts do not close terminal and go to http://localhost/8000 from your brouser
+After server starts do not close terminal and go to http://localhost:8000 from your brouser
 
 Crawler
 =======
