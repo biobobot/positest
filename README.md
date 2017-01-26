@@ -6,7 +6,7 @@ An example of simple site powered by python vai pyramid framework
 Installation
 ------------
 
-Before all you need to install some instruments for site to be workable
+Before all you need to install some instruments for site to be workable.
 First one it is the python it self of course.
 
     $sudo apt-get install python3
@@ -27,8 +27,6 @@ Getting sources
 ---------------
 
 Clone repository to your direcory
-
-.. code:: bash
 
     $mkdir positest
     $cd positest
