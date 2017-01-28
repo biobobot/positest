@@ -19,8 +19,6 @@ def hash(x):
 	m.update(x.encode())
 	return m.digest()
 
-
-
 def xssprotect(value):
 	return html.escape(value)
 	
@@ -221,10 +219,11 @@ class Posi(object):
 				return Collision.already_friend			
 			result = self.db.users.find_one({'login' : friend})
 			if result:
-				self.db.friends.insert_one({
-					'login' : login,
-					'friend' : friend,
-				})
+				self.db.friends.insert_one(
+					{
+						'login' : login,
+						'friend' : friend,
+					})
 				self.messge = 'You have new frend: '+friend
 			else:
 				return Collision.user_is_not_exist
