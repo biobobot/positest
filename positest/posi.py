@@ -233,7 +233,6 @@ class Posi(object):
 
 	def select_notes(self, request):
 		notes=None
-		print("HELLO")
 		if 'user' in request.GET and request.GET['user']:
 			login = request.GET['user']
 			notes = self.db.notes.find({'login':login})
