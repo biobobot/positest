@@ -19,7 +19,7 @@ class PosiViews:
 					{'cap':'Home', 'ref':'/?user='+login, 'sel':''},
 					{'cap':'About', 'ref':'/about', 'sel':''},
 					{'cap':'Friends', 'ref':'/friends', 'sel':''},
-					{'cap':'Add note', 'ref':'/addnote',			'sel':''},
+					{'cap':'Add note', 'ref':'/addnote', 'sel':''},
 					{'cap':'Edit', 'ref':'/edit', 'sel':''},
 					{'cap':'Statistics', 'ref':'/stat', 'sel':''},
 					{'cap':'Logout', 'ref':'/?logout', 'sel':''}
