@@ -35,7 +35,7 @@ class  Collision():
 	login_pass_incorrect = 7
 	already_friend = 8
 
-	def render(collision):#TODO for
+	def render(collision):
 		if collision == Collision.must_login:
 			return render('templates/oops.pt',{
 				'message' : 'WARNING!',
@@ -120,8 +120,6 @@ class Watcher():
 			document['lasttime'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 			db.actions.update({'user':login}, document)
 			result = db.actions.find()
-class Views:
-	pass
 
 class Posi(object):
 	obj = None
