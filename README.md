@@ -58,7 +58,7 @@ Crawler
 Package you've just get also contains web spider script in crawler.py file
 To start spider while web server runs open new terminal window and run crawler.py in format like this:
 
-    $python3 crowler.py -H http://localhost:8000 user:pass user2:pass2 ... userN:passN
+    $python3 crawler.py -H http://localhost:8000 user:pass user2:pass2 ... userN:passN
     
 if users exists in site data base you must see statistics for each one
 
